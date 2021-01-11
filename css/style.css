@@ -11,7 +11,10 @@ body{
 }
 
 .navbar-container{
+    top: 0;
     background-color: #262B37;
+    position: sticky;
+    z-index: 2;
 }
 
 .about-container{
@@ -26,13 +29,52 @@ body{
     background-color: #FB857F;
 }
 
+bg-redtype:hover{
+    color: black !important;
+}
+
 .redtype-color{
     color: #FB857F;
 }
 
-.circle{
+.circle-edu{
     background-color: #FB857F;
     width: 150px;
     height: 150px;
     border-radius: 50%;
+}
+
+.project-container{
+    background-color: #2BB3DD;
+}
+
+.form-container{
+    background-color: #474D5D;
+}
+
+.gallery-container{
+    background-color: #2BB3DD;
+}
+
+.inner-form{
+    background-color: #585F73;
+}
+
+.footer{
+    background-color: #2BB3DD;
+}
+
+.circle{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: white;
+    font-size: 40px;
+    text-align: center;
+    color: #2BB3DD;
+}
+
+.circle:hover{
+    background-color: #474D5D;
 }
